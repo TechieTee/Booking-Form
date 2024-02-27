@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/society-for-family-health-logos-idjdjh6tTY.jpeg">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class='sidebar' className="p-4 d-flex justify-content-center align-items-center">
+            <div class='img-logo'>
+                <img class="img" src='./assets/society-for-family-health-logos-idqRkaWxtU.png' alt="SFH logo" />
+            </div>
+        </div>
+        <div class='main'>
+            <div class="main-wrapper">
+                <h3>SFH Booking Form</h3>
+                <h4>Schedule a Virtual Appointment With Society for Family Health</h4>
+                <form class="form-wrapper" id="myForm">
+                    <label for="fullname">FullName:</label>
+                    <input type="text" id="name" name="fullname" placeholder="FullName" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    <label for="datetime">Appointment Date and Time:</label>
+                    <input type="datetime-local" id="datetime" name="datetime" required>
+                    <label for="reason">Appointment Purpose/Reason:</label>
+                    <textarea id="reason" name="reason" placeholder="Purpose/Reason for your appointment" rows="4"
+                        required></textarea>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+                <h6>
+                    Privacy Policy <span>and</span> Terms of services
+                </h6>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
