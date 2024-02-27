@@ -5,20 +5,20 @@ Welcome to my project! I Created a simple booking form for scheduling a virtual 
 [ visit webpage](https://booking-form.netlify.app/).
 
 
-## Patient Information:
-## Name
-## Email
-## Phone Number
+### Patient Information:
+Name
+Email
+Phone Number
 
-## Appointment Details:
-## Date and Time (with date and time picker)
-## Purpose/Reason for the appointment (text area).
-## Submit Button:
+### Appointment Details:
+Date and Time (with date and time picker)
+Purpose/Reason for the appointment (text area).
+Submit Button:
 
-## When the user submits the form, it should display a confirmation message.
+When the user submits the form, it should display a confirmation message.
  
 
-## Requirements
+### Requirements
 Use HTML, CSS, and JavaScript to create the form and its functionality.
 Ensure that the form is responsive and works well on both desktop and mobile devices.
 Implement client-side validation to ensure that required fields are filled out and the email address is in the correct format.
